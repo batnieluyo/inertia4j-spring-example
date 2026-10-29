@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vue-tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.1.1",
+    "@inertiajs/vue3": "^2.0.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "express": "^4.21.2",
+    "globals": "^15.15.0",
+    "minimist": "^1.2.8",
+    "sass-embedded": "^1.87.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^9.33.0",
+    "vue-tsc": "^2.2.8"
+  }
+}
